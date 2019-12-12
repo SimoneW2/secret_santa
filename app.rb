@@ -3,7 +3,7 @@ require 'sinatra/base'
 
 class SecretSanta < Sinatra::Base
   get '/' do
-    'Secret santa yay!'
+    'Testing infrastructure working!'
   end
 
   run! if app_file == $0
